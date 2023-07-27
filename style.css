@@ -1,0 +1,42 @@
+.carousel-item1{
+    background-image: url("./images/banner1.png");
+    background-size: cover;
+    height: 80vh;
+}
+.carousel-item2{
+    background-image: url("./images/banner2.png");
+}
+.carousel-item3{
+    background-image: url("./images/banner3.png");
+}
+.carousel-item4{
+    background-image: url("./images/banner4.png");
+}
+
+/* Add styles for the search container */
+.search-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style the search input */
+.search-input {
+    padding-right: 30px;
+    /* Make space for the icon on the right */
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Add styles for the search icon */
+.search-icon {
+    position: absolute;
+    top: 10px;
+    right: 6px;
+    width: 18px;
+    height: 18px;
+    background-image: url('./images/Search_Icon.svg.png');
+    /* Replace with the path to your icon image */
+    background-size: cover;
+}
